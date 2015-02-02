@@ -1,10 +1,11 @@
 {:user {:dependencies [[clj-stacktrace "0.2.8"]
-                       [slamhound "1.5.5"]
+                       #_[slamhound "1.5.5"]
                        [im.chit/vinyasa "0.2.0"]
                        [spyscope "0.1.4"]
                        [org.apache.httpcomponents/httpclient "4.3.5"]]
         :plugins [[lein-difftest "2.0.0"]
-                  [cider/cider-nrepl "0.8.2"]
+                  [cider/cider-nrepl "0.9.0-SNAPSHOT"]
+                  [cider/refactor-nrepl "0.3.0-SNAPSHOT"]
                   [lein-marginalia "0.7.1"]
                   [lein-simpleton "1.3.0"]]
         :repl-options {
